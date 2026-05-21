@@ -1030,9 +1030,20 @@ function App() {
       </section>
 
       <footer className="border-t border-anchor-ink/10 px-5 py-8 md:px-8">
-        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-4 text-sm text-anchor-muted md:flex-row">
-          <p>© 2026 Solstice Consulting. Leadership • Talent • Performance.</p>
-          <p>Leadership development · Coaching · Assessment · Selection · Talent mapping</p>
+        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-4 text-sm text-anchor-muted md:flex-row md:items-center">
+          <div className="space-y-2">
+            <p>© 2026 Solstice Consulting. Leadership • Talent • Performance.</p>
+            <p>Leadership development · Coaching · Assessment · Selection · Talent mapping</p>
+          </div>
+          <a
+            href="https://www.linkedin.com/in/francescahernandez/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Visit Francesca Hernandez on LinkedIn"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-anchor-ink/10 text-anchor-muted transition hover:border-anchor-ink/20 hover:text-anchor-ink"
+          >
+            <LinkedInIcon className="h-4 w-4" />
+          </a>
         </div>
       </footer>
     </main>
@@ -1040,3 +1051,16 @@ function App() {
 }
 
 createRoot(document.getElementById("root")).render(<App />);
+
+function LinkedInIcon({ className = "h-4 w-4" }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M6.94 8.98H3.85v10.17h3.09V8.98ZM7.2 5.84c0-.99-.79-1.74-1.8-1.74s-1.8.75-1.8 1.74c0 .98.78 1.74 1.76 1.74h.02c1.03 0 1.82-.76 1.82-1.74Zm12.2 7.48c0-3.06-1.63-4.49-3.8-4.49-1.75 0-2.54.96-2.98 1.64V8.98H9.55c.04.95 0 10.17 0 10.17h3.08v-5.68c0-.3.02-.61.11-.82.24-.61.8-1.24 1.74-1.24 1.23 0 1.72.94 1.72 2.31v5.43h3.09v-5.83Z" />
+    </svg>
+  );
+}
