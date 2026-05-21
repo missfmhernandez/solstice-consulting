@@ -343,7 +343,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 240 72"
-        className="h-12 w-44 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+        className="h-10 w-44 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
       >
         <text
           x="16"
@@ -374,7 +374,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 220 72"
-        className="h-12 w-40 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+        className="h-10 w-40 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
       >
         <text
           x="110"
@@ -406,7 +406,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 260 72"
-        className="h-12 w-44 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+        className="h-10 w-44 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
       >
         <text
           x="130"
@@ -447,7 +447,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 190 72"
-        className="h-12 w-36 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+        className="h-10 w-36 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
       >
         <text
           x="95"
@@ -467,7 +467,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 240 72"
-        className="h-12 w-40 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+        className="h-10 w-40 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
       >
         <text
           x="120"
@@ -487,7 +487,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 260 86"
-        className="h-14 w-44 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+        className="h-10 w-44 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
       >
         <g fill="none" stroke="currentColor" strokeWidth="2" transform="translate(6 4)">
           <path d="M38 0 54 13v41c0 18-16 25-16 25S22 72 22 54V13z" />
@@ -546,7 +546,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 220 92"
-        className="h-14 w-40 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+        className="h-10 w-40 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
       >
         <path d="M42 22h136" stroke="currentColor" strokeWidth="3" />
         <text
@@ -577,7 +577,7 @@ function BrandLogo({ brand }) {
         role="img"
         aria-label={brand.name}
         viewBox="0 0 24 24"
-        className={`${brand.size === "large" ? "h-14 w-44" : "h-11 w-36"} fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100`}
+        className={`${brand.size === "large" ? "h-10 w-40" : "h-10 w-36"} fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90`}
       >
         <path d={brand.path} />
       </svg>
@@ -589,7 +589,7 @@ function BrandLogo({ brand }) {
       role="img"
       aria-label={brand.name}
       viewBox="0 0 220 72"
-      className="h-12 w-40 fill-current opacity-70 transition-opacity duration-200 group-hover:opacity-100"
+      className="h-10 w-40 fill-current opacity-60 transition-opacity duration-200 group-hover:opacity-90"
     >
       <text
         x="110"
