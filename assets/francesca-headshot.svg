@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f4efe7"/>
+  <circle cx="400" cy="345" r="142" fill="none" stroke="#70675d" stroke-width="18" opacity="0.55"/>
+  <path d="M190 840c45-175 140-262 210-262s165 87 210 262" fill="none" stroke="#70675d" stroke-width="20" stroke-linecap="round" opacity="0.55"/>
+  <text x="400" y="910" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="5" fill="#70675d" opacity="0.75">FRANCESCA HERNANDEZ</text>
+</svg>

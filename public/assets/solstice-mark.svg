@@ -1,0 +1,24 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="none"/>
+  <g fill="none" stroke="#201d19" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="4" d="M64 20v70"/>
+    <path stroke-width="4" d="M51 90 56 37h16l5 53"/>
+    <path stroke-width="4" d="M53 37h22l-5-14H58z"/>
+    <path stroke-width="4" d="M59 23v-9h10v9"/>
+    <path stroke-width="4" d="M55 52h18"/>
+    <path stroke-width="4" d="M53 66h22"/>
+    <path stroke-width="3.5" d="M64 14V6"/>
+    <path stroke-width="3.5" d="M48 19 43 8"/>
+    <path stroke-width="3.5" d="M80 19 85 8"/>
+    <path stroke-width="3.5" d="M40 31 25 14"/>
+    <path stroke-width="3.5" d="M88 31 103 14"/>
+    <path stroke-width="3.5" d="M35 43 12 28"/>
+    <path stroke-width="3.5" d="M93 43 116 28"/>
+    <path stroke-width="3.5" d="M32 56 8 46"/>
+    <path stroke-width="3.5" d="M96 56 120 46"/>
+    <path stroke-width="3.5" d="M31 69 7 64"/>
+    <path stroke-width="3.5" d="M97 69 121 64"/>
+    <path stroke-width="4" d="M26 90c5 7 12 7 17 0 5 7 12 7 17 0 5 7 12 7 17 0 5 7 12 7 17 0"/>
+    <path stroke-width="4" d="M14 103c5 7 12 7 17 0 5 7 12 7 17 0 5 7 12 7 17 0 5 7 12 7 17 0 5 7 12 7 17 0"/>
+  </g>
+</svg>
