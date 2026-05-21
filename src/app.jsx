@@ -148,6 +148,9 @@ const outcomes = [
   "Practical behavioural change with measurable impact",
 ];
 
+const consultationEmailHref =
+  "mailto:info@solsticeconsulting.co.uk?subject=Introductory%20consultation";
+
 function Icon({ name, className = "h-5 w-5" }) {
   const common = {
     className,
@@ -253,7 +256,7 @@ function Button({ children, variant = "primary", href = "#contact" }) {
   return (
     <a
       href={href}
-      className={`inline-flex min-h-12 items-center justify-center rounded-full px-6 text-sm font-semibold transition ${styles}`}
+      className={`inline-flex min-h-12 cursor-pointer items-center justify-center rounded-full px-6 text-sm font-semibold transition ${styles}`}
     >
       {children}
     </a>
@@ -641,7 +644,7 @@ function App() {
               Contact
             </a>
           </nav>
-          <Button href="#contact">Start a conversation</Button>
+          <Button href={consultationEmailHref}>Start a conversation</Button>
         </div>
       </header>
 
@@ -660,12 +663,12 @@ function App() {
               Practical leadership and talent solutions designed for growing organisations.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button href="#contact">
+              <Button href={consultationEmailHref}>
                 Start a conversation
                 <Icon name="arrow" className="ml-2 h-4 w-4" />
               </Button>
               <Button href="#services" variant="secondary">
-                View services
+                View Services
               </Button>
             </div>
           </div>
@@ -1009,7 +1012,7 @@ function App() {
             address them.
           </p>
           <div className="mt-8">
-            <Button href="mailto:hello@solsticeconsulting.example">
+            <Button href={consultationEmailHref}>
               Book a consultation
               <Icon name="arrow" className="ml-2 h-4 w-4" />
             </Button>
